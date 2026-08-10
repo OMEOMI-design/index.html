@@ -1,0 +1,331 @@
+<!-- web 1.png -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>OME Home - The Collections</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;700&amp;family=Inter:wght@400;500;700&amp;family=Public+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"tertiary-container": "#bfab49", "on-secondary-fixed-variant": "#42474b", "surface-container-highest": "#e3e2e3", "error-container": "#ffdad6", surface: "#faf9fa", "on-secondary-fixed": "#171c20", "on-tertiary-container": "#4a3f00", "on-secondary-container": "#606569", "surface-variant": "#e3e2e3", "outline-variant": "#c3c6d5", "on-primary": "#ffffff", "inverse-primary": "#b1c5ff", "on-primary-fixed-variant": "#00419d", "inverse-on-surface": "#f2f0f1", "primary-fixed": "#d9e2ff", "tertiary-fixed": "#f9e37a", "on-tertiary-fixed": "#211b00", "surface-container": "#efedee", outline: "#737784", "tertiary-fixed-dim": "#dcc661", background: "#faf9fa", "surface-container-lowest": "#ffffff", "surface-container-high": "#e9e8e9", "inverse-surface": "#303031", primary: "#094cb2", "on-tertiary": "#ffffff", "on-background": "#1b1c1d", "on-secondary": "#ffffff", "primary-container": "#3366cc", "surface-bright": "#faf9fa", "on-surface-variant": "#434653", "surface-tint": "#2259bf", "on-primary-fixed": "#001946", "surface-container-low": "#f5f3f4", "on-error": "#ffffff", secondary: "#5a5f63", error: "#ba1a1a", "secondary-fixed": "#dfe3e8", "on-tertiary-fixed-variant": "#524600", "primary-fixed-dim": "#b1c5ff", "secondary-fixed-dim": "#c2c7cc", tertiary: "#6d5e00", "on-error-container": "#93000a", "on-primary-container": "#e7ebff", "on-surface": "#1b1c1d", "secondary-container": "#dfe3e8", "surface-dim": "#dbdadb"}, borderRadius: {DEFAULT: "0.125rem", lg: "0.25rem", xl: "0.5rem", full: "0.75rem"}, spacing: {"margin-desktop": "80px", "container-max": "1440px", unit: "8px", gutter: "16px", "section-gap": "160px", "margin-mobile": "24px", "margin-md": "32px", "margin-sm": "16px", "margin-lg": "48px", base: "8px"}, fontFamily: {"display-lg": ["Bodoni Moda"], "label-caps": ["Hanken Grotesk"], "display-lg-mobile": ["Bodoni Moda"], "headline-md": ["Noto Serif"], "headline-sm": ["Bodoni Moda"], "body-lg": ["Inter"], "body-md": ["Inter"], "headline-lg": ["Noto Serif"], "label-md": ["Public Sans"], "headline-xl": ["Noto Serif"]}, fontSize: {"display-lg": ["80px", {lineHeight: "92px", letterSpacing: "-0.02em", fontWeight: "400"}], "label-caps": ["12px", {lineHeight: "16px", letterSpacing: "0.15em", fontWeight: "600"}], "display-lg-mobile": ["48px", {lineHeight: "56px", letterSpacing: "-0.01em", fontWeight: "400"}], "headline-md": ["24px", {lineHeight: "32px", fontWeight: "600"}], "headline-sm": ["24px", {lineHeight: "32px", fontWeight: "500"}], "body-lg": ["18px", {lineHeight: "28px", fontWeight: "400"}], "body-md": ["16px", {lineHeight: "24px", fontWeight: "400"}], "headline-lg": ["32px", {lineHeight: "40px", fontWeight: "600"}], "label-md": ["14px", {lineHeight: "20px", fontWeight: "500"}], "headline-xl": ["40px", {lineHeight: "48px", fontWeight: "700"}]}}}};</script>
+<style>
+          html {
+              scroll-behavior: smooth;
+          }
+          body {
+              background-color: theme('colors.surface');
+              color: theme('colors.on-surface');
+          }
+          .material-symbols-outlined {
+              font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+          }
+          .fill-icon .material-symbols-outlined {
+              font-variation-settings: 'FILL' 1, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+          }
+      </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface antialiased overflow-x-hidden selection:bg-primary selection:text-on-primary">
+<!-- TopAppBar -->
+<header class="bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-md fixed top-0 w-full z-50 border-b border-outline-variant/30 flat no shadows flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 w-full transition-transform duration-300" id="global-header">
+<button aria-label="Menu" class="text-primary dark:text-primary-fixed hover:opacity-70 transition-opacity duration-300 cursor-pointer transition-transform duration-500 active:scale-95 focus:outline-none">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<div class="cursor-pointer transition-transform duration-500 active:scale-95">
+<img alt="OME Home" class="h-8 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRAuNyQXqtK_nH4NxoStd700CXuGHwsYnVO-BLN0TeXNXgCiFERutgzWgMeZZfZjns0Pfo_ic2mxe-C5r5XkVm36MSKCP5Qsc52Lo6znTjvwzHz62CMeUjBwAXacIICVa5nFElvvlu25ctzLnTSp_1YatgtL5PMu-PcmMnFN8Zzfy556lqpXZfMPGcXBnYXdWiONyxvzT182akUO4O36SBYDyqDcm-lv5fJLURJEtZpS0YW2C4l9VtRxiAUkCQkmvvNOo"/>
+</div>
+<button aria-label="Shopping Bag" class="text-primary dark:text-primary-fixed hover:opacity-70 transition-opacity duration-300 cursor-pointer transition-transform duration-500 active:scale-95 focus:outline-none">
+<span class="material-symbols-outlined">shopping_bag</span>
+</button>
+</header>
+<main class="pt-24 pb-section-gap">
+<section class="px-margin-mobile md:px-margin-desktop mb-section-gap max-w-container-max mx-auto text-center">
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-6">The Collections</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Explore our curated galleries of scent, where macro-textures of nature meet the poetics of minimal design.</p>
+</section>
+<!-- The Rice Collection -->
+<section class="px-margin-mobile md:px-margin-desktop mb-section-gap max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<div class="md:col-span-7 relative h-[530px] md:h-[707px] overflow-hidden bg-surface-container-low group">
+<img alt="OME Home Odor Trap Spray - The Rice Collection" class="w-full h-full transition-transform duration-1000 group-hover:scale-105 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCKDYYHHLCV9iqv1OpRS6bAsac8sblRNEKY6bkjSnPr7kv23TqGresBGWxHozWfUVUiu3qgH-KvSO69QMxyVbbly9NlXUO1Vyg2BlkvVBlyiTrVp34ujh4md92gZGspRBxBXeYSp8rLkO4b1IbN2BerHlBCSy5dlwhz4onVLe--Jwkj1iR_SEUooZvcnEHnvh5KOj3FRkFRZ4CyJrPCJ_F0Ugu7l9tl76vpJ7yHyfJSYHJ-KxqB6vPtd1kcQPZkJwrgYM"/>
+</div>
+<div class="md:col-span-4 md:col-start-9 flex flex-col justify-center pt-8 md:pt-0">
+<span class="font-label-caps text-label-caps text-outline mb-4 tracking-widest uppercase">Collection I</span>
+<h2 class="font-headline-md text-headline-md text-primary mb-6">The Rice Collection</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
+                        A study in gentle comfort. Grounded in the powdery, soft warmth of toasted rice and white tea. This collection evokes the quiet familiarity of morning rituals and the restorative calm of neutral spaces.
+                    </p>
+<div class="flex gap-4 mb-8">
+<span class="px-3 py-1 bg-secondary-container text-primary border border-outline-variant/50 font-label-caps text-label-caps uppercase rounded-sm">Toasted Rice</span>
+<span class="px-3 py-1 bg-secondary-container text-primary border border-outline-variant/50 font-label-caps text-label-caps uppercase rounded-sm">White Tea</span>
+</div>
+<button class="self-start px-6 py-3 border border-primary text-primary font-label-caps text-label-caps hover:bg-surface-container-high transition-colors duration-300 uppercase tracking-widest">
+                        Explore Collection
+                    </button>
+</div>
+</div>
+</section>
+<!-- The Highland Collection -->
+<section class="px-margin-mobile md:px-margin-desktop mb-section-gap max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<div class="md:col-span-4 flex flex-col justify-center order-2 md:order-1 pt-8 md:pt-0">
+<span class="font-label-caps text-label-caps text-outline mb-4 tracking-widest uppercase">Collection II</span>
+<h2 class="font-headline-md text-headline-md text-primary mb-6">The Highland Collection</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
+                        Crisp, herbaceous, and expansive. Drawing inspiration from wind-swept ridges and wild sage. A sharp, clarifying breath of air captured through notes of crushed herbs and damp stone.
+                    </p>
+<div class="flex gap-4 mb-8">
+<span class="px-3 py-1 bg-surface-container-high text-primary border border-outline-variant/50 font-label-caps text-label-caps uppercase rounded-sm">Wild Sage</span>
+<span class="px-3 py-1 bg-surface-container-high text-primary border border-outline-variant/50 font-label-caps text-label-caps uppercase rounded-sm">Damp Stone</span>
+</div>
+<button class="self-start px-6 py-3 border border-primary text-primary font-label-caps text-label-caps hover:bg-surface-container-highest transition-colors duration-300 uppercase tracking-widest">
+                        Explore Collection
+                    </button>
+</div>
+<div class="md:col-span-7 md:col-start-6 relative h-[530px] md:h-[707px] overflow-hidden bg-surface-container-high order-1 md:order-2 group">
+<img alt="The Highland Collection Texture" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="Extreme macro shot of dew drops on dark green wild sage leaves. The background is a blurred, muted grey stone texture. Lighting is cool, crisp, and diffused, creating a serene, earthy, and slightly moody minimal aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBT_27rIctDrhQk_D1tNbOZKZvvr9cKNYXUCkHYigXOc1i2Kmjn8R-qHwvMQitcUlLkfpspj-3jAHeTVF6UZ6o7ZgbDkDCyyy1qFPTXNIYMgAG00XsXY0J45RLcBJPAXLJ12T3pq5tbaA-BGc2LT2OOFFiJYsqopd1zZjts34YA_nSHsr34DdBCrQ5y4bMxm4L9ehpiytYobeFQe3x3FZaJnxsq6uOMZdw4QrcfNuxlMFvwRf5eWd789A"/>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden bg-surface dark:bg-surface-dim border-t border-outline-variant/20 flat no shadows fixed bottom-0 w-full flex justify-around items-center h-16 px-4 z-50">
+<a class="flex items-center justify-center text-outline dark:text-outline-variant hover:text-primary transition-colors duration-300 active:scale-90 transition-all flex-col gap-1" href="#">
+<span class="material-symbols-outlined">home_max</span>
+<span class="font-label-caps text-[10px] uppercase hidden">Home</span>
+</a>
+<a class="flex items-center justify-center text-primary dark:text-primary-fixed scale-110 hover:text-primary transition-colors duration-300 active:scale-90 transition-all fill-icon flex-col gap-1" href="#">
+<span class="material-symbols-outlined">auto_awesome</span>
+<span class="font-label-caps text-[10px] uppercase hidden">Collections</span>
+</a>
+<a class="flex items-center justify-center text-outline dark:text-outline-variant hover:text-primary transition-colors duration-300 active:scale-90 transition-all flex-col gap-1" href="#">
+<span class="material-symbols-outlined">eco</span>
+<span class="font-label-caps text-[10px] uppercase hidden">Philosophy</span>
+</a>
+<a class="flex items-center justify-center text-outline dark:text-outline-variant hover:text-primary transition-colors duration-300 active:scale-90 transition-all flex-col gap-1" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="font-label-caps text-[10px] uppercase hidden">Account</span>
+</a>
+</nav>
+<!-- Footer -->
+<footer class="bg-secondary-container dark:bg-tertiary-container text-on-secondary-container dark:text-on-tertiary-container w-full px-margin-mobile md:px-margin-desktop py-section-gap flex flex-col md:flex-row justify-between items-start gap-gutter mb-16 md:mb-0">
+<div class="mb-8 md:mb-0">
+<div class="mb-4">
+<img alt="OME Home" class="h-10 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwhKsitO6Euj7oSGn8stJF2BB8sTK9CX7i3ag8_XZQvuSe5rQIBLwSvPV7uDs4E3xeZ2VaVc6-8-FZoFThKNv0_iN2amsmRYd0t_sqNLuQbm6q6Pl1RFoJi0haGwPblucudIKUO4fOQte3Osv4X20UkCwdOGuf1wQYW9qea8KeajtNav6Fc4-8P7emScrcmnXqBj9eFJ1lPj2AQLLFvD3iCxGX1dBiMBD9o0iT3rzt8sW0DLzy11LsdWHBuybNoMkDyYw"/>
+</div>
+<p class="font-body-md text-body-md">© 2024 OME Home. Fragrance as a bridge to nature.</p>
+</div>
+<div class="flex flex-col gap-4 font-body-md text-body-md text-on-secondary-container/80">
+<a class="hover:text-primary transition-colors" href="#">Reforestation Project</a>
+<a class="hover:text-primary transition-colors" href="#">Social Impact</a>
+<a class="hover:text-primary transition-colors" href="#">Scent Philosophy</a>
+<a class="hover:text-primary transition-colors" href="#">Sustainability</a>
+</div>
+</footer>
+<script>
+        // Simple script to hide/show header on scroll
+        let lastScrollTop = 0;
+        const header = document.getElementById('global-header');
+
+        window.addEventListener('scroll', function() {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollTop > lastScrollTop && scrollTop > 100) {
+                // Scroll down
+                header.style.transform = 'translateY(-100%)';
+            } else {
+                // Scroll up
+                header.style.transform = 'translateY(0)';
+            }
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+        }, false);
+    </script>
+</body></html>
+
+<!-- OME Home | The Collections (Updated) -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>White Rice (Gạo) - OME Home</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-container": "#3c3224",
+                    "on-secondary-fixed-variant": "#4a4640",
+                    "surface-container-highest": "#e3e3de",
+                    "error-container": "#ffdad6",
+                    "surface": "#fafaf5",
+                    "on-secondary-fixed": "#1e1b16",
+                    "on-tertiary-container": "#a99a88",
+                    "on-secondary-container": "#67625b",
+                    "surface-variant": "#e3e3de",
+                    "outline-variant": "#c4c8c2",
+                    "on-primary": "#ffffff",
+                    "inverse-primary": "#bec9be",
+                    "on-primary-fixed-variant": "#3f4941",
+                    "inverse-on-surface": "#f1f1ec",
+                    "primary-fixed": "#dae5da",
+                    "tertiary-fixed": "#f1e0cc",
+                    "on-tertiary-fixed": "#231a0e",
+                    "surface-container": "#eeeee9",
+                    "outline": "#747873",
+                    "tertiary-fixed-dim": "#d5c4b1",
+                    "background": "#fafaf5",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container-high": "#e8e8e3",
+                    "inverse-surface": "#2f312e",
+                    "primary": "#172119",
+                    "on-tertiary": "#ffffff",
+                    "on-background": "#1a1c19",
+                    "on-secondary": "#ffffff",
+                    "primary-container": "#2c362e",
+                    "surface-bright": "#fafaf5",
+                    "on-surface-variant": "#434843",
+                    "surface-tint": "#566158",
+                    "on-primary-fixed": "#141e17",
+                    "surface-container-low": "#f4f4ef",
+                    "on-error": "#ffffff",
+                    "secondary": "#625e57",
+                    "error": "#ba1a1a",
+                    "secondary-fixed": "#e9e1d9",
+                    "on-tertiary-fixed-variant": "#504536",
+                    "primary-fixed-dim": "#bec9be",
+                    "secondary-fixed-dim": "#ccc5be",
+                    "tertiary": "#261d11",
+                    "on-error-container": "#93000a",
+                    "on-primary-container": "#949f94",
+                    "on-surface": "#1a1c19",
+                    "secondary-container": "#e6ded6",
+                    "surface-dim": "#dadad5"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "margin-desktop": "80px",
+                    "container-max": "1440px",
+                    "unit": "8px",
+                    "gutter": "32px",
+                    "section-gap": "160px",
+                    "margin-mobile": "24px"
+            },
+            "fontFamily": {
+                    "display-lg": ["Bodoni Moda"],
+                    "label-caps": ["Hanken Grotesk"],
+                    "display-lg-mobile": ["Bodoni Moda"],
+                    "headline-md": ["Bodoni Moda"],
+                    "headline-sm": ["Bodoni Moda"],
+                    "body-lg": ["Hanken Grotesk"],
+                    "body-md": ["Hanken Grotesk"]
+            },
+            "fontSize": {
+                    "display-lg": ["80px", {"lineHeight": "92px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                    "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.15em", "fontWeight": "600"}],
+                    "display-lg-mobile": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+                    "headline-md": ["40px", {"lineHeight": "48px", "fontWeight": "400"}],
+                    "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "500"}],
+                    "body-lg": ["18px", {"lineHeight": "30px", "letterSpacing": "0.01em", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+            }
+          },
+        }
+      }
+    </script>
+</head>
+<body class="bg-surface text-on-surface antialiased overflow-x-hidden selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopAppBar (Shared Component) -->
+<header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/30 flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 transition-all duration-300">
+<button class="text-primary hover:opacity-70 transition-opacity duration-300 cursor-pointer transition-transform active:scale-95 flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<img alt="OME Home" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAieGQ9nPtE0uIfLDR6xtO_yuBNxJXGUVS17yE76AjNbHZ1d5Ajz_8BHSqg7aKv37GficIs1gwoMh3CDH-JjyxCbzLWE0U2EGu6uvvhMbzXPxUaLenegmJjOPMkb76e_5Wbp6uqB241EqQTxFbWOytRX95m3isyzAE0RQ-2txGKr-Ebx23jnsd8D2h5iazottk551AQ21F8ekVErZfEiEI3seiLY76wyZbYDhp65cgBTfRnu0p-HTDmc_SEZyL3SkbsRUY"/>
+<button class="text-primary hover:opacity-70 transition-opacity duration-300 cursor-pointer transition-transform active:scale-95 flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span>
+</button>
+</header>
+<!-- Main Product Canvas (Gallery Model) -->
+<main class="pt-24 md:pt-32 pb-section-gap min-h-screen flex flex-col">
+<!-- Back Navigation (Contextual, non-shell) -->
+<div class="px-margin-mobile md:px-margin-desktop py-8 w-full max-w-container-max mx-auto flex items-center">
+<a class="inline-flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors font-label-caps text-label-caps" href="#">
+<span class="material-symbols-outlined text-sm">arrow_back</span>
+                Back to Collection
+            </a>
+</div>
+<article class="flex-grow w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-12 gap-gutter md:gap-x-16 items-center">
+<!-- Image Section (Asymmetric Left) -->
+<div class="md:col-span-7 relative w-full h-[60vh] md:h-[80vh] overflow-hidden group">
+<!-- Tonal shift background for the image container -->
+<div class="absolute inset-0 bg-surface-container-low transition-colors duration-700"></div>
+<img class="absolute inset-0 w-full h-full object-cover object-center scale-105 group-hover:scale-100 transition-transform duration-1000 ease-out" data-alt="A striking, macro-photography shot of a heavy, minimalist glass perfume bottle labeled 'White Rice'. The focus is intensely tight on the sophisticated, cloud-like silver spray atomizer, capturing the fine mist it produces. The lighting is soft, diffused, and cinematic, creating a bright, modern light-mode aesthetic with ethereal white and silver tones. The background is a soft, out-of-focus hint of misty grey and white organic textures, evoking a sense of calm and restorative luxury." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCA8owum-44id4M8vmPZd2RaTfQM32QfVvrYo55_FapdYtfcAQNK9vo1ZEvIMN4JfKQQqu4PiUEzPLTuos-MTrPEwQv8y-V_cubL2cf8gysrzF6chOBIu5HYhYhUCgfCU5CvWlCzGBOzi4-dMI8I3qcqEu-tqhTtwTGv5TCaiQK2l7-OjDCwcPtZcJZ_6S-oC-Kej7484mD2II7mPUS-U3qT89wwMrgQh7jH3R_-t-LQxr3W17NCu_97XSF7FhpzMn0--4"/>
+</div>
+<!-- Content Section (Asymmetric Right) -->
+<div class="md:col-span-5 flex flex-col justify-center py-12 md:py-0 relative z-10">
+<header class="mb-8">
+<h2 class="md:hidden font-display-lg-mobile text-display-lg-mobile text-primary mb-2">Xịt Khử Mùi OME</h2>
+<h2 class="hidden md:block font-display-lg text-display-lg text-primary mb-2">Xịt Khử Mùi<br/><span class="italic text-on-surface-variant text-headline-md font-headline-md tracking-wider">Odor Trap™</span></h2>
+</header>
+<div class="h-px w-16 bg-outline-variant/50 mb-8"></div>
+<!-- Scent Notes (Minimal Chips) -->
+<div class="mb-10">
+<h3 class="font-label-caps text-label-caps text-outline mb-4">Scent Architecture</h3>
+<div class="flex flex-wrap gap-3"><span class="inline-flex items-center px-4 py-2 border border-outline-variant/40 bg-surface-container-lowest font-label-caps text-label-caps text-primary tracking-widest uppercase">Odor Neutralizer</span><span class="inline-flex items-center px-4 py-2 border border-outline-variant/40 bg-surface-container-lowest font-label-caps text-label-caps text-primary tracking-widest uppercase">Anti-Bacterial</span><span class="inline-flex items-center px-4 py-2 border border-outline-variant/40 bg-surface-container-lowest font-label-caps text-label-caps text-primary tracking-widest uppercase">Long Lasting</span></div>
+</div>
+<!-- Evocative Description -->
+<div class="mb-12 prose prose-p:font-body-lg prose-p:text-body-lg prose-p:text-on-surface-variant prose-p:leading-relaxed max-w-none"><p>Experience the science of purity. Our Odor Trap™ technology doesn't just mask smells; it captures and neutralizes odor molecules at their source. A sophisticated blend of functional elegance and minimalist design, ensuring your home remains a sanctuary of freshness and restorative clarity.</p></div>
+<!-- CTA -->
+<div>
+<button class="group inline-flex items-center justify-center border border-primary text-primary bg-transparent font-label-caps text-label-caps px-8 py-4 transition-all duration-500 hover:bg-surface-container-high relative overflow-hidden">
+<span class="relative z-10 tracking-widest uppercase">Experience the Scent</span>
+<div class="absolute inset-0 bg-primary/5 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out z-0"></div>
+</button>
+</div>
+</div>
+</article>
+</main>
+<!-- Footer (Shared Component) -->
+<footer class="w-full px-margin-mobile md:px-margin-desktop py-section-gap flex flex-col md:flex-row justify-between items-start gap-gutter bg-secondary-container text-on-secondary-container">
+<div class="flex flex-col gap-4 max-w-sm">
+<span class="font-display-lg text-headline-sm text-primary">OME Home</span>
+<p class="font-body-md text-body-md text-on-secondary-container/80">
+                © 2024 OME Home. Fragrance as a bridge to nature.
+            </p>
+</div>
+<nav class="flex flex-col md:flex-row gap-8 md:gap-12">
+<a class="font-body-md text-body-md text-on-secondary-container/80 hover:text-primary transition-colors" href="#">Reforestation Project</a>
+<a class="font-body-md text-body-md text-on-secondary-container/80 hover:text-primary transition-colors" href="#">Social Impact</a>
+<a class="font-body-md text-body-md text-on-secondary-container/80 hover:text-primary transition-colors" href="#">Scent Philosophy</a>
+<a class="font-body-md text-body-md text-on-secondary-container/80 hover:text-primary transition-colors" href="#">Sustainability</a>
+</nav>
+</footer>
+</body></html>
